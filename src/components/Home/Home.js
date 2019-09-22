@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import './Home.css';
+import HomePageCardGroup from "../Card/HomePageCardGroup";
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <p>this is the home page</p>
+                <HomePageCardGroup/>
             </div>
         )
     }

@@ -1,0 +1,28 @@
+.formCard {
+    width: 60em;
+    margin: auto;
+    padding: 3em;
+}
+
+.center {
+    text-align: center;
+}
+
+.pageTitle {
+    padding: 4em;
+}
+
+.submitButton {
+    width: 15em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.newNoteCard {
+    width: 55em;
+    margin: auto;
+}
+
+.newNoteCardInputs {
+    padding: 2em;
+}

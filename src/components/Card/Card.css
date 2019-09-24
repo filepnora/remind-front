@@ -10,6 +10,10 @@
     margin-left: 1.5em;
 }
 
+.homeBottomCardBody {
+    height: 10em;
+}
+
 .addnewbutton:hover {
     background-color: #282c34;
 }

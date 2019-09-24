@@ -1,10 +1,25 @@
 .homePageCard {
-    margin: 5%;
+    margin: 3em;
     padding: 2%;
+    width: 10px !important;
 }
 
 .homePageCardImg {
-    width: 90%;
-    height: auto;
-    margin: auto;
+    width: 10em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+.addnewbutton:hover {
+    background-color: #282c34;
+}
+
+.addnewbutton {
+    margin-left: 0.5em;
+    border: #282c34;
+    color: white;
+}
+
+.deck {
+    padding: 0 2em 2em;
 }

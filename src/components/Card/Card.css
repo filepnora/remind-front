@@ -23,7 +23,25 @@
     border: #282c34;
     color: white;
 }
-
 .deck {
     padding: 0 2em 2em;
+}
+
+.listPageCard {
+    margin: 3em;
+    padding: 0.5em;
+}
+
+.listPageNoteCard {
+    background-color: rgb(254, 255, 172);
+    padding: 1em;
+    margin: 3em;
+    border: 2px solid #282c34;
+    border-radius: 0;
+    border-bottom-right-radius: 80px;
+}
+
+.smallButton {
+    width: 1.5em;
+    position: absolute;
 }

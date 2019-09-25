@@ -33,7 +33,9 @@ class HomePageCardGroup extends Component {
                 </CardDeck>
                 <CardDeck className="deck">
                     <HomeBottomCard
-                        color="rgb(198, 175, 249)"/>
+                        color="rgb(198, 175, 249)"
+                        header="Quote of the day:"
+                        content="Happiness is when what you think, what you say, and what you do are in harmony. - Gandhi"/>
                     <HomeBottomCard
                         color="rgb(172, 239, 255)"/>
                 </CardDeck>

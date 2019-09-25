@@ -7,7 +7,9 @@ const NewItemCard = (props) => {
         <Card className="homePageCard" style={{backgroundColor: props.color}}>
             <Card.Body className="homeBottomCardBody">
                 <Card.Text>
-                    {props.content}
+                    <h5>{props.header}</h5>
+                    <br/>
+                    <p>{props.content}</p>
                 </Card.Text>
             </Card.Body>
         </Card>

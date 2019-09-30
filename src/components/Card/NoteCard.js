@@ -25,6 +25,6 @@ const NoteCard = (props) => {
             </Card.Body>
         </Card>
     )
-}
+};
 
 export default NoteCard;

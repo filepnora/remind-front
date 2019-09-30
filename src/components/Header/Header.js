@@ -11,7 +11,6 @@ const header = () => {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/books">Books</Nav.Link>
                 <Nav.Link href="/movies">Movies</Nav.Link>
-                <Nav.Link href="/series">Series</Nav.Link>
                 <Nav.Link href="/notes">Notes</Nav.Link>
             </Nav>
             <Button variant="outline-info" href="/login">Login</Button>

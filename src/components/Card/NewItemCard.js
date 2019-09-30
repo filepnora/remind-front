@@ -15,7 +15,7 @@ const NewItemCard = (props) => {
                 <Col className="textCol">
                     <Card.Body>
                         <Card.Title className="homePageCardTitle">
-                            <Button className="addnewbutton" href={props.link} style={{backgroundColor: "#282c34"}}>{props.title}</Button>
+                            <Button className="addnewbutton" href={props.link} style={{backgroundColor: "#282c34"}}>+ {props.title}</Button>
                         </Card.Title>
                         <br/>
                         <Card.Text>

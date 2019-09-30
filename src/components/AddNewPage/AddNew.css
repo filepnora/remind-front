@@ -1,11 +1,24 @@
 .formCard {
     width: 60em;
     margin: auto;
-    padding: 3em;
+    padding: 2em;
+}
+
+.textField {
+    width: 20em;
+}
+
+.linkField {
+    width: 40em;
+}
+
+.selectField {
+    width: 15em;
 }
 
 .center {
     text-align: center;
+    margin: auto;
 }
 
 .pageTitle {

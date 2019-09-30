@@ -7,10 +7,10 @@ import Button from "react-bootstrap/Button";
 class NewNotePage extends Component {
     render() {
         return (
-            <Form className="pageTitle center newNoteCard">
+            <Form className="pageTitle center">
                 <h1>Add a new NOTE</h1>
                 <hr/>
-                <Card style={{backgroundColor: "rgb(254, 255, 172)"}}>
+                <Card className="newNoteCard" style={{backgroundColor: "rgb(254, 255, 172)"}}>
                     <Form.Group className="newNoteCardInputs">
                         <Form.Label><h4>Title:</h4></Form.Label>
                         <Form.Control type="text" placeholder="" className="center"/>

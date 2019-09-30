@@ -15,21 +15,32 @@ class NewBookMediaPage extends Component {
                     <Form.Row>
                         <Form.Group as={Col}>
                             <Form.Label>Title</Form.Label>
-                            <Form.Control type="text" placeholder="" className="center"/>
+                            <Form.Control type="text" placeholder="" className="textField center"/>
                         </Form.Group>
                         <Form.Group as={Col}>
                             <Form.Label>Release date</Form.Label>
-                            <Form.Control type="text" placeholder="" className="center"/>
+                            <Form.Control type="text" placeholder="" className="textField center"/>
+                        </Form.Group>
+                    </Form.Row>
+                    <Form.Row>
+                        <Form.Group as={Col}>
+                            <Form.Label>Author</Form.Label>
+                            <Form.Control type="text" placeholder="" className="textField center"/>
+                        </Form.Group>
+                        <Form.Group as={Col}>
+                            <Form.Label>Publisher</Form.Label>
+                            <Form.Control type="text" placeholder="" className="textField center"/>
                         </Form.Group>
                     </Form.Row>
                     <Form.Group className="center">
                         <Form.Label >Link</Form.Label>
-                        <Form.Control type="text" className="center" placeholder="paste link here" />
+                        <Form.Control type="text" className="linkField center" placeholder="paste link here" />
                     </Form.Group>
+                    <hr/>
                     <Form.Row>
-                        <Form.Group as={Col}>
+                        <Form.Group as={Col} >
                             <Form.Label>Status:</Form.Label>
-                            <Form.Control as="select">
+                            <Form.Control as="select" className="selectField center">
                                 <option>Want to read it</option>
                                 <option>Have it</option>
                                 <option>Currently reading</option>
@@ -38,7 +49,7 @@ class NewBookMediaPage extends Component {
                         </Form.Group>
                         <Form.Group as={Col}>
                             <Form.Label>Genre:</Form.Label>
-                            <Form.Control as="select">
+                            <Form.Control as="select" className="selectField center">
                                 <option>Drama</option>
                                 <option>Romantic</option>
                                 <option>Crime</option>

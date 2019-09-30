@@ -11,34 +11,34 @@ class HomePageCardGroup extends Component {
     render() {
         return (
             <div>
-                <CardDeck className="deck">
+                <CardDeck className="deck" style={{marginTop: "11em"}}>
                     <NewItemCard
                         color="rgb(172, 255, 187)"
                         image={bookImg}
-                        title="+ Book"
+                        title="book"
                         content="... you want to read, read, will read here"
                         link="/new-book"/>
                     <NewItemCard
                         color="rgb(255, 172, 213)"
                         image={mediaImg}
-                        title="+ Movie / Series"
+                        title="movie"
                         content="... you want to watch, saw, will watch"
                         link="/new-media"/>
                     <NewItemCard
                         color="rgb(254, 255, 172)"
                         image={notePadImg}
-                        title="+ Note"
+                        title="note"
                         content="... you want to ... remember"
                         link="new-note/"/>
                 </CardDeck>
-                <CardDeck className="deck">
+                {/*<CardDeck className="deck">
                     <HomeBottomCard
                         color="rgb(198, 175, 249)"
                         header="Quote of the day:"
                         content="Happiness is when what you think, what you say, and what you do are in harmony. - Gandhi"/>
                     <HomeBottomCard
                         color="rgb(172, 239, 255)"/>
-                </CardDeck>
+                </CardDeck>*/}
             </div>
         )
     }
